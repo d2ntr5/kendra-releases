@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.3.0</title>
-      <pubDate>Wed, 18 Nov 2026 14:23:41 GMT</pubDate>
-      <sparkle:version>23</sparkle:version>
-      <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+      <title>Kendra 0.3.1</title>
+      <pubDate>Wed, 18 Nov 2026 14:38:32 GMT</pubDate>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,13 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="23" data-v="0.3.0"><h3>v0.3.0<span class="tag">설치할 버전</span><small>2026-11-18</small></h3>
+<section data-sparkle-version="25" data-v="0.3.1"><h3>v0.3.1<span class="tag">설치할 버전</span><small>2026-11-18</small></h3>
+<ul>
+<li><b>고객사 탭 = 카드형</b>(시안 17장): 고객사(법인명)마다 카드 — 단계 · 메일 · 일정 · 메시지 · 최근 30일 언급 · 유형 띠 · 근거 · 다음 일정(빨간 점) · 「표에서 보기」 · 「지도에서 보기」 · 이름 바꾸기 · 합치기</li>
+<li><b>카드를 누르면 추가 · 제외</b>: 고객사 카드를 누르면 제외, 제외 · 더 보기 카드를 누르면 고객사로 추가</li>
+<li>설정 › 고객사는 목록 그대로</li>
+</ul></section>
+<section data-sparkle-version="23" data-v="0.3.0"><h3>v0.3.0<small>2026-11-18</small></h3>
 <ul>
 <li><b>본 창 탭 6개</b>: 파이프라인 표 · WBS · 지도 · 캘린더 · 고객사 · 데이터 (시안 화면을 탭으로)</li>
 <li><b>파이프라인 표</b>(시안 16장, AI 없이): 고객사(법인명)마다 대화 묶음(메일 스레드 · Chat 방 · 일정)이 행. 유형 = 제목 낱말 규칙(시안 8개 + 계약 · 예산 · 운영 · 문의, 나머지 기타, 근거 낱말 보임), 상태 = 날짜(진행 · 예정 · 대기 · 멈춤), 단계 = 유형(신규 유치 · 운영 · 종료 단계), 요약 = 최근 메일 미리보기 한 줄(앞 인사말 뗌) + 「n통 · 기간 · 상대 도메인」, 내 메모(앱 안에만), ↳ 연관(같은 유형 · 같은 날 일정 ↔ 메일) · 과거(30일보다 오래된 같은 유형). 행을 누르면 파란 칸 · 연관은 주황 줄. 고객사 · 유형 고르기</li>
@@ -74,7 +80,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.3.0.zip" length="4370279" type="application/octet-stream" sparkle:edSignature="nHB4wRCxw50toeYE6GRVo66sjvGFOsJoWet2NY16T8As1erZiKQRHHFkP4GrRehBWw21q1tAwOnYqSskVCwcAw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.3.1.zip" length="4518106" type="application/octet-stream" sparkle:edSignature="qY6CiJXNHPi9T7qlErWCnjFu2poFW6w5Je9Rg7cyjsFIawYPHCCdwX3YnAnTCJ290l8TXRFNttuCGLrdMRsdAA=="/>
     </item>
   </channel>
 </rss>
