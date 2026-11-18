@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.1.4</title>
-      <pubDate>Wed, 18 Nov 2026 05:59:20 GMT</pubDate>
-      <sparkle:version>15</sparkle:version>
-      <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+      <title>Kendra 0.1.5</title>
+      <pubDate>Wed, 18 Nov 2026 12:45:39 GMT</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,12 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="15" data-v="0.1.4"><h3>v0.1.4<span class="tag">설치할 버전</span><small>2026-11-18</small></h3>
+<section data-sparkle-version="19" data-v="0.1.5"><h3>v0.1.5<span class="tag">설치할 버전</span><small>2026-11-18</small></h3>
+<ul>
+<li>고침: 캘린더의 회의실 · 장비(리소스)가 참석자 도메인으로 들어가 고객사처럼 보이던 문제 (<code>resource.calendar.google.com</code> 은 이제 빠짐)</li>
+<li>고침: 같은 메일 · 일정을 다시 받을 때 예전 주소가 인덱스에 남던 문제. 「↻ 모으기」를 한 번 누르면 일정 인덱스가 새로 정리됨</li>
+</ul></section>
+<section data-sparkle-version="15" data-v="0.1.4"><h3>v0.1.4<small>2026-11-18</small></h3>
 <ul>
 <li>Google Chat 모으기: 내가 들어가 있는 스페이스 · 그룹 대화 · 1:1 대화의 최근 90일 메시지를 chat 테이블로 (어드레스는 스페이스)</li>
 <li>이미 연결했다면 설정 › 연결 › 「Chat 읽기 허용…」으로 한 번 더 동의 — 메일 · 캘린더 연결은 그대로</li>
@@ -53,7 +58,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.1.4.zip" length="3393608" type="application/octet-stream" sparkle:edSignature="3ReZBkJ3KAoy5oEtOWPPbkaCyskVCPZwSTjHlqfPFDBwLwVIwN2iBo/NXZtHMGQJEPPNceNz2Vm09VUUCrRGAA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.1.5.zip" length="3397720" type="application/octet-stream" sparkle:edSignature="vNcpIiCn7AnCtPrQrcvZrN3vAS/DPDIgfy19tIywaEpS+BpjRqBbN3/trGfqyX3aFJAkahGlf204CGJAkIr+AQ=="/>
     </item>
   </channel>
 </rss>
