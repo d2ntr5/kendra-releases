@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.1.0</title>
-      <pubDate>Wed, 18 Nov 2026 05:07:46 GMT</pubDate>
-      <sparkle:version>7</sparkle:version>
-      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <title>Kendra 0.1.1</title>
+      <pubDate>Wed, 18 Nov 2026 05:20:57 GMT</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,13 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="7" data-v="0.1.0"><h3>v0.1.0<span class="tag">설치할 버전</span><small>2026-11-18</small></h3>
+<section data-sparkle-version="9" data-v="0.1.1"><h3>v0.1.1<span class="tag">설치할 버전</span><small>2026-11-18</small></h3>
+<ul>
+<li>Google 연결을 Karya와 같은 방식으로 맞춤: 메일 · 캘린더 읽기 권한만 요청(Chat 권한은 요청하지 않음)</li>
+<li>Google Chat은 후순위: 설정 › 연결과 본 창에 「시험 전」으로 표시하고 모으지 않음</li>
+<li>연결 시험 전: Kendra 전용 Google 클라이언트가 준비되면 연결 단추가 켜집니다</li>
+</ul></section>
+<section data-sparkle-version="7" data-v="0.1.0"><h3>v0.1.0<small>2026-11-18</small></h3>
 <ul>
 <li>처음 만듦: 창 머리(아이콘 · 이름 · 버전 · 톱니) · 탭(파이프라인 표 · 지도 · 캘린더) · 설정 창(일반 · 연결 · AI · 업데이트 · 정보)</li>
 <li>앱 안 데이터베이스(SQLite)에 테이블 4개: 메일 · 캘린더 · Google Chat · Slack</li>
@@ -27,7 +33,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.1.0.zip" length="3325927" type="application/octet-stream" sparkle:edSignature="GkcNVI1arGK5U8DhPKY48qnH+aTDOi60WfyIT5dyQaHWevOrXZMfP1VSVibdK2XvqG57yqtiaNMhQ/kjggZDBQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.1.1.zip" length="3326124" type="application/octet-stream" sparkle:edSignature="lpeMkBERWHkfxjkF65pJrweLmjvPBmj6hR4wdSjYvs0Bk48ByeSoWi14lSY2jNcSd+O1ZGqKx8fS9uJOE4IaCA=="/>
     </item>
   </channel>
 </rss>
