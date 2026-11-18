@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.1.3</title>
-      <pubDate>Wed, 18 Nov 2026 05:39:39 GMT</pubDate>
-      <sparkle:version>13</sparkle:version>
-      <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
+      <title>Kendra 0.1.4</title>
+      <pubDate>Wed, 18 Nov 2026 05:59:20 GMT</pubDate>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,14 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="13" data-v="0.1.3"><h3>v0.1.3<span class="tag">설치할 버전</span><small>2026-11-18</small></h3>
+<section data-sparkle-version="15" data-v="0.1.4"><h3>v0.1.4<span class="tag">설치할 버전</span><small>2026-11-18</small></h3>
+<ul>
+<li>Google Chat 모으기: 내가 들어가 있는 스페이스 · 그룹 대화 · 1:1 대화의 최근 90일 메시지를 chat 테이블로 (어드레스는 스페이스)</li>
+<li>이미 연결했다면 설정 › 연결 › 「Chat 읽기 허용…」으로 한 번 더 동의 — 메일 · 캘린더 연결은 그대로</li>
+<li>메일과 같은 방식: 속도 제한 · 한도 초과 다시 시도 · 1,000건씩 바로 저장 · 다시 모으면 스페이스마다 마지막 메시지 뒤부터 이어 받기 · 「스페이스 n / 전체 · 메시지 m」 진행 표시</li>
+<li>회사 프로젝트에서 Chat API가 꺼져 있으면 「Chat API가 꺼져 있음 — 콘솔에서 켜기」로 표시</li>
+</ul></section>
+<section data-sparkle-version="13" data-v="0.1.3"><h3>v0.1.3<small>2026-11-18</small></h3>
 <ul>
 <li>고침: 메일이 많으면 「모으기」가 403으로 실패하고 0건이 되던 문제. Gmail 사용자별 한도(분당 6,000단위, 메일 하나 20단위 = 분당 300통) 안으로 초당 4통 · 동시 3개로 받음</li>
 <li>한도 초과 응답(403 rateLimitExceeded · userRateLimitExceeded, 429, 5xx)은 1초부터 최대 64초까지 늘려 가며 다시 시도</li>
@@ -46,7 +53,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.1.3.zip" length="3374300" type="application/octet-stream" sparkle:edSignature="KCNt0KyF1SzxmOv3VyV1ruimDb/g7pmh8CeoG+t6zbzZbr4LXWBZTMzgBZ0iQkRT7d70G7S5Msgi59eNt4COAg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.1.4.zip" length="3393608" type="application/octet-stream" sparkle:edSignature="3ReZBkJ3KAoy5oEtOWPPbkaCyskVCPZwSTjHlqfPFDBwLwVIwN2iBo/NXZtHMGQJEPPNceNz2Vm09VUUCrRGAA=="/>
     </item>
   </channel>
 </rss>
