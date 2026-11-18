@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.1.2</title>
-      <pubDate>Wed, 18 Nov 2026 05:31:08 GMT</pubDate>
-      <sparkle:version>11</sparkle:version>
-      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <title>Kendra 0.1.3</title>
+      <pubDate>Wed, 18 Nov 2026 05:39:39 GMT</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,14 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="11" data-v="0.1.2"><h3>v0.1.2<span class="tag">설치할 버전</span><small>2026-11-18</small></h3>
+<section data-sparkle-version="13" data-v="0.1.3"><h3>v0.1.3<span class="tag">설치할 버전</span><small>2026-11-18</small></h3>
+<ul>
+<li>고침: 메일이 많으면 「모으기」가 403으로 실패하고 0건이 되던 문제. Gmail 사용자별 한도(분당 6,000단위, 메일 하나 20단위 = 분당 300통) 안으로 초당 4통 · 동시 3개로 받음</li>
+<li>한도 초과 응답(403 rateLimitExceeded · userRateLimitExceeded, 429, 5xx)은 1초부터 최대 64초까지 늘려 가며 다시 시도</li>
+<li>메일을 50통씩 받는 대로 저장 — 중간에 실패해도 받은 메일은 남고, 다시 모으면 이미 받은 메일은 건너뛰고 이어 받음</li>
+<li>모으는 동안 「메일 n / 전체」 진행 표시, 실패하면 오류 사유(reason)를 함께 표시</li>
+</ul></section>
+<section data-sparkle-version="11" data-v="0.1.2"><h3>v0.1.2<small>2026-11-18</small></h3>
 <ul>
 <li>Google 연결: Karya의 OAuth(같은 회사 내부 앱 · 같은 클라이언트)를 그대로 씀. 이제 「Google 계정으로 연결」 단추가 켜짐</li>
 <li>로그인 창은 앱이 띄운 인증 세션(ASWebAuthenticationSession)으로 열리고 응답도 그 세션이 받음 — Karya 로그인과 섞이지 않게 Kendra는 URL 스킴을 등록하지 않음</li>
@@ -39,7 +46,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.1.2.zip" length="3343070" type="application/octet-stream" sparkle:edSignature="UA/5WOSYCAWUXxgS5l91iW2iQQ1lB6hFILnJvpmQr3ZyOPxPZTJERAe85sl+qcOi/2iBsBe+D589JjkpGGvvCw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.1.3.zip" length="3374300" type="application/octet-stream" sparkle:edSignature="KCNt0KyF1SzxmOv3VyV1ruimDb/g7pmh8CeoG+t6zbzZbr4LXWBZTMzgBZ0iQkRT7d70G7S5Msgi59eNt4COAg=="/>
     </item>
   </channel>
 </rss>
