@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.10.0</title>
-      <pubDate>Thu, 19 Nov 2026 05:18:58 GMT</pubDate>
-      <sparkle:version>126</sparkle:version>
-      <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+      <title>Kendra 0.10.1</title>
+      <pubDate>Thu, 19 Nov 2026 05:24:55 GMT</pubDate>
+      <sparkle:version>140</sparkle:version>
+      <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,11 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="126" data-v="0.10.0"><h3>v0.10.0<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<section data-sparkle-version="140" data-v="0.10.1"><h3>v0.10.1<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<ul>
+<li>지도: 묶음이 적은 고객사가 가운데에 몰려 이름이 겹치던 것을 줄임(고객사 이름도 원 바깥쪽, 고객사 부채꼴 최소 5칸, 고객사 가지 기본 길이 140)</li>
+</ul></section>
+<section data-sparkle-version="126" data-v="0.10.0"><h3>v0.10.0<small>2026-11-19</small></h3>
 <ul>
 <li><b>설정 › AI 「내 역할」</b>(시안 44장): 조직장 · 팀장 · 리더 · 직접 입력을 고르면 그 관점의 기본 글이 나오고 고칠 수 있음(600자, 역할마다 따로 기억, 「기본값으로」). 기기 내 AI 정리 지시문 끝에 붙음. 바꾸면 「전체 다시 정리…」 띠</li>
 <li>내가 보낸 메일 · 내가 연 일정으로 역할을 추천: 처음 AI 정리 때 채워 「AI 추천 — 확인해 주세요」, 그 뒤 달라지면 [반영] [무시]. 기기 내 모델만, 내보내기에 넣지 않음. 「내가 연 일정」을 알려면 「↻ 모으기」 한 번 더 필요</li>
@@ -163,7 +167,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.10.0.zip" length="7014860" type="application/octet-stream" sparkle:edSignature="MZtWwjz8fEMSqu3HppF60QyOJ1sk/61khyOaGYGNHLocViAoQk+1c9qNBXXcSVooYBVJowHtcdrOPgQhKeVMDg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.10.1.zip" length="7015109" type="application/octet-stream" sparkle:edSignature="jCbvk3miqkRxpaxVeamOGBfrEivy2XsXQd+3TVJW4OA3GwIdjh4Z8abVJlgx9g7NKxS0+WGhpAHuiU7CbMG+Cg=="/>
     </item>
   </channel>
 </rss>
