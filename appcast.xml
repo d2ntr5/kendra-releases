@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.10.1</title>
-      <pubDate>Thu, 19 Nov 2026 05:24:55 GMT</pubDate>
-      <sparkle:version>140</sparkle:version>
-      <sparkle:shortVersionString>0.10.1</sparkle:shortVersionString>
+      <title>Kendra 0.11.0</title>
+      <pubDate>Thu, 19 Nov 2026 05:37:45 GMT</pubDate>
+      <sparkle:version>148</sparkle:version>
+      <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,13 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="140" data-v="0.10.1"><h3>v0.10.1<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<section data-sparkle-version="148" data-v="0.11.0"><h3>v0.11.0<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<ul>
+<li><b>지도 오른쪽 클릭 메뉴</b>(시안 49장): 고객사 · 아젠다 · 묶음 · 레코드 · 전체에서 오른쪽 클릭(두 손가락 · control + 클릭) → 이동 ▸ WBS · 파이프라인 · 데이터 인덱스(날짜순 · 메일만 · Chat만 · 캘린더만 · Slack만 · 붙여넣기만), 상세보기, 맞추기(이 가지)</li>
+<li><b>데이터 탭 레코드 목록</b>(50장): 맨 위에 날짜 · 유형 · 제목 · 사람 · 곳 · 묶음, 범위 칩 · 유형 칩 · 정렬, 200줄씩 더 불러오기, 행을 누르면 툴팁</li>
+<li><b>지도 상세보기</b>(51장): 고른 요소를 가운데에 놓고 아젠다 · 묶음 · 사람 · 날짜 · 연관 · 레코드를 모두 펼침. 왼쪽 위 길 표시, esc · ⌘[로 돌아가면 전 위치 · 배율 그대로</li>
+</ul></section>
+<section data-sparkle-version="140" data-v="0.10.1"><h3>v0.10.1<small>2026-11-19</small></h3>
 <ul>
 <li>지도: 묶음이 적은 고객사가 가운데에 몰려 이름이 겹치던 것을 줄임(고객사 이름도 원 바깥쪽, 고객사 부채꼴 최소 5칸, 고객사 가지 기본 길이 140)</li>
 </ul></section>
@@ -167,7 +173,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.10.1.zip" length="7015109" type="application/octet-stream" sparkle:edSignature="jCbvk3miqkRxpaxVeamOGBfrEivy2XsXQd+3TVJW4OA3GwIdjh4Z8abVJlgx9g7NKxS0+WGhpAHuiU7CbMG+Cg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.11.0.zip" length="7302247" type="application/octet-stream" sparkle:edSignature="6/Im3kQLjWLtqymfdQQ2W58f+AGkJMeGKiuoxUQ8ncqMYXFwClQCuvtUKfF1F4c2LB++4XCaqSWQITxqZslaCA=="/>
     </item>
   </channel>
 </rss>
