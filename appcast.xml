@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.15.0</title>
-      <pubDate>Thu, 19 Nov 2026 06:31:20 GMT</pubDate>
-      <sparkle:version>174</sparkle:version>
-      <sparkle:shortVersionString>0.15.0</sparkle:shortVersionString>
+      <title>Kendra 0.15.1</title>
+      <pubDate>Thu, 19 Nov 2026 06:43:06 GMT</pubDate>
+      <sparkle:version>180</sparkle:version>
+      <sparkle:shortVersionString>0.15.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,11 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="174" data-v="0.15.0"><h3>v0.15.0<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<section data-sparkle-version="180" data-v="0.15.1"><h3>v0.15.1<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<ul>
+<li>담당자: 「나」를 같은 아이디의 회사 별칭 도메인 주소까지 넓힘 — 그 주소로 받은 메일 · 일정도 「나와 주고받음」으로 셈(맥미니 DB 사본에서 나와 두 번 이상 주고받은 사람 35 → 75명)</li>
+</ul></section>
+<section data-sparkle-version="174" data-v="0.15.0"><h3>v0.15.0<small>2026-11-19</small></h3>
 <ul>
 <li><b>담당자 「GWS에서 가져오기」</b>(시안 58~61장): 우리 회사 도메인 사람만 회사 디렉터리에서 이메일로 찾아 성명 · 이메일 · 직함 · 부서 · 전화 · 사무실을 가져옴. 덮어쓰지 않고 사람 페이지 「GWS에서 바뀐 정보」 표에서 항목별 <a href="✎ 값이면 주황 경고, 「✎ 빼고 모두 적용」 · 「모두 무시」, 무시한 같은 값은 다시 안 물음">적용] [무시</a>. 목록 「● n」 · 「● 바뀐 정보만」 · 탭 이름 옆 점. 처음 누를 때만 Google 「디렉터리 읽기」 권한을 더 받음. 회사가 디렉터리 공유를 꺼 두었으면 그렇게 알려 줌. GWS 직함을 적용하면 담당 직무가 되고 역할 구분은 직함 낱말을 먼저 봄. 전화번호는 내보내기에 안 넣음</li>
 </ul></section>
@@ -193,7 +197,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.15.0.zip" length="8403174" type="application/octet-stream" sparkle:edSignature="Xy9IvtJ+QBjVfITd8iLRlJqRlbniZRXp4M4Zz3ac3hV8esJ8qbK97gqDAuMAzrpvIzMJ/HcFtJ7rC8ze8HyADg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.15.1.zip" length="8408596" type="application/octet-stream" sparkle:edSignature="Z8e7wfuRkSMm2f5DbYOJy9Od49tMiYA9l9vGhzXBRUK8RQcwwf7OhefoAoJR+Mm/lh+p2XqLkBovF71UdyzkBQ=="/>
     </item>
   </channel>
 </rss>
