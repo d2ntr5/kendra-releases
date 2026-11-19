@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.7.4</title>
-      <pubDate>Thu, 19 Nov 2026 04:14:55 GMT</pubDate>
-      <sparkle:version>91</sparkle:version>
-      <sparkle:shortVersionString>0.7.4</sparkle:shortVersionString>
+      <title>Kendra 0.8.0</title>
+      <pubDate>Thu, 19 Nov 2026 04:45:57 GMT</pubDate>
+      <sparkle:version>109</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,16 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="91" data-v="0.7.4"><h3>v0.7.4<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<section data-sparkle-version="109" data-v="0.8.0"><h3>v0.8.0<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<ul>
+<li><b>표에 붙여넣기</b>(시안 36장): 파이프라인 표 윗줄 「📋 붙여넣기」(⌘⇧V) · 표 위에 파일 끌어 놓기 — 붙인 글 · 그림 · 파일이 표의 항목(출처 태그 📋 붙여넣기, 날짜 = 붙인 날)이 되고, 기기 내 AI가 고객사 · 유형 · 제목을 목록 안에서 고름. 고객사를 못 고르면 추천 칸에 「고객사 없음」 + 「값 고치기」. 붙인 항목은 「모은 데이터 비우기」에도 남음</li>
+<li><b>붙여넣기 → 기기 내 AI</b>(시안 36장): 고객사 추가 · 수정 창 「📋 붙여넣기 → AI로 채우기」와 카드의 찾는 말 · 도메인 팝오버 「📋 붙여넣기」 — 명함 · 서명 · 계약서(글 · 그림 · PDF)에서 법인명 · 찾는 말 · 도메인 후보. 표의 행 메모 「📋」 — 붙인 글을 두세 줄로 줄여 메모에 더하고 원문은 「참고 자료」로 접어 둠(앱 안에만, 내보내기에 안 넣음). 기기 내 모델만 쓰고 맥 밖으로 보내지 않음</li>
+<li><b>고객사 카드에서 바로 고치기</b>(시안 32장): 이름을 누르면 그 자리 입력칸, 단계는 펼침 목록(자동 · 신규 유치 · 운영 · 종료 단계), 찾는 말 · 도메인은 팝오버(빼기 · 더하기 · 맞는 메일 · 일정 · 방 수), 카드에 메모 줄(「＋ 메모」, 수정 창 메모와 같은 값). 숫자 · 유형 띠 · 출처 · 근거 · 다음 일정은 마우스를 올리면 툴팁, 누르면 고정(「표에서 보기 ›」 · 「원문 열기 ↗」). 한 번에 하나만 열리고 다른 곳을 누르면 저장, esc 취소, ⌘Z로 되돌리기</li>
+<li><b>정리한 상태 늘 유지</b>(시안 37장): 휴지통(예전 「제외」) 칸은 접혀 있고 접고 펴기를 기억. 작은 카드는 「되살리기」 단추로만 되살림(스치듯 눌러 되살아나지 않게). 휴지통 고객사로 옮겼던 행 · AI 고객사 추천이 표 · WBS에 다시 나오던 문제 고침. 설정 › 고객사 「되돌리기」도 확인 창</li>
+<li><b>고객사 카드 누르기</b>(31장): 한 번 = 고르기, 두 번 · ⏎ = 수정 창. 🗑 = 휴지통으로(확인 없음) + 「○○을 휴지통으로 옮겼습니다 [되돌리기]」 10초 · ⌘Z. 직접 추가한 고객사만 영구 삭제(확인 창)</li>
+<li>다시 열면 보던 탭으로</li>
+</ul></section>
+<section data-sparkle-version="91" data-v="0.7.4"><h3>v0.7.4<small>2026-11-19</small></h3>
 <ul>
 <li>설정 › 업데이트의 새 버전 초록 상자 단추 이름 「업데이트…」 → 「업데이트」</li>
 <li>고침: 고객사가 아직 없는 빈 화면에서 창이 크면 머리 띠(Kendra · 탭)가 창 맨 위가 아니라 세로 가운데에 놓이던 문제(0.7.1부터). 이제 늘 맨 위에</li>
@@ -141,7 +150,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.7.4.zip" length="6291374" type="application/octet-stream" sparkle:edSignature="iiP7RdVEXRaD9U8GQY5Z41GEsf+erJW6HNXQWohb2Y1oqDeKItbkhFSuLgZEbEdnNxLB91h4mCQC3l0uVSjfDg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.8.0.zip" length="6711295" type="application/octet-stream" sparkle:edSignature="GCOUqs+ZrbLwLusE9n/5ZeZhGB94a0cM/8LGZCbOcrHLsBVQY9lwR1tC20moU1gyY2lTtgyYbgG9sXDAe4GjCA=="/>
     </item>
   </channel>
 </rss>
