@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.7.1</title>
-      <pubDate>Thu, 19 Nov 2026 03:42:22 GMT</pubDate>
-      <sparkle:version>69</sparkle:version>
-      <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+      <title>Kendra 0.7.2</title>
+      <pubDate>Thu, 19 Nov 2026 03:47:33 GMT</pubDate>
+      <sparkle:version>77</sparkle:version>
+      <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,11 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="69" data-v="0.7.1"><h3>v0.7.1<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<section data-sparkle-version="77" data-v="0.7.2"><h3>v0.7.2<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<ul>
+<li>창 머리(제목 줄 · 탭 줄의 빈 곳)를 더블클릭하면 창이 지금 화면(메뉴 막대 · Dock 뺀 곳)을 채움. 전체 화면은 아님. 다시 더블클릭하면 원래 크기 · 자리로. 채운 채 껐다 켜도 되돌릴 수 있음. 단추 · 메뉴 · 탭 위 더블클릭은 그 동작만</li>
+</ul></section>
+<section data-sparkle-version="69" data-v="0.7.1"><h3>v0.7.1<small>2026-11-19</small></h3>
 <ul>
 <li>고침: 창 크기를 기억하지 못하던 문제. 창이 뜬 직후 내용 크기로 줄어(높이 245pt) 그 값이 저장되고, 다음 실행 때 최소 크기보다 작아 기본 크기로 돌아갔음</li>
 <li>고침: Mission Control로 다른 데스크탑에 보낸 본 창이 앱을 다시 누를 때마다 원래 데스크탑으로 따라오던 문제. 이제 창이 있는 데스크탑으로 넘어감(설정 창은 지금처럼 지금 보는 데스크탑에)</li>
@@ -127,7 +131,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.7.1.zip" length="6193305" type="application/octet-stream" sparkle:edSignature="LN+XH7db1NEP/pAJpnq478BNdG3xe2afcap8BIB7+1KmVZdGlWAO64QYhGCEJ/w8x27+iWxwCNWy2Pcl8ecFAg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.7.2.zip" length="6204791" type="application/octet-stream" sparkle:edSignature="ml9mFFQrlF2Dn/w0MCnRXiHzUP7Eb2KhgMoijC11RCrd0HI0xi6CoxT+7hamUZK/qOc5ILk/PC+SjxCp9EBLAw=="/>
     </item>
   </channel>
 </rss>
