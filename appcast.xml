@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.7.0</title>
-      <pubDate>Thu, 19 Nov 2026 01:19:55 GMT</pubDate>
-      <sparkle:version>63</sparkle:version>
-      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <title>Kendra 0.7.1</title>
+      <pubDate>Thu, 19 Nov 2026 03:42:22 GMT</pubDate>
+      <sparkle:version>69</sparkle:version>
+      <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,12 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="63" data-v="0.7.0"><h3>v0.7.0<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<section data-sparkle-version="69" data-v="0.7.1"><h3>v0.7.1<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<ul>
+<li>고침: 창 크기를 기억하지 못하던 문제. 창이 뜬 직후 내용 크기로 줄어(높이 245pt) 그 값이 저장되고, 다음 실행 때 최소 크기보다 작아 기본 크기로 돌아갔음</li>
+<li>고침: Mission Control로 다른 데스크탑에 보낸 본 창이 앱을 다시 누를 때마다 원래 데스크탑으로 따라오던 문제. 이제 창이 있는 데스크탑으로 넘어감(설정 창은 지금처럼 지금 보는 데스크탑에)</li>
+</ul></section>
+<section data-sparkle-version="63" data-v="0.7.0"><h3>v0.7.0<small>2026-11-19</small></h3>
 <ul>
 <li><b>세부 항목 툴팁</b>(시안 39장): 파이프라인 표의 행 본문 · 「↳ 연관 · 과거」 줄 · 「같은 건 후보」 줄, WBS 3단계(묶음) 줄을 누르면 그 자리 옆에 작은 창. 탭은 옮기지 않고, 행 고르기 · 연관 주황 표시는 그대로</li>
 <li>내용: 출처 · 유형 · 고객사 › 아젠다, AI 제목과 원래 제목, 처음 ~ 마지막 · 메일 n통 / 메시지 n개 · 다음 일정, 미리보기 4줄, 보낸 사람 · 도메인(메일) / 참석 n명 · 장소(일정) / 방 이름(Chat), 분류(상태 · AI · 구분 항목 · 확인 필요), 메모 첫 줄 · 연관 · 과거</li>
@@ -122,7 +127,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.7.0.zip" length="6193074" type="application/octet-stream" sparkle:edSignature="zslQ95nw5vIUUub+QLHq/aOCvbj0GdhrJ4dDRl4mfwXL25LZEL05+t9IjgsFnzn4LTIzv/EhqqWWX1A9kq9lDQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.7.1.zip" length="6193305" type="application/octet-stream" sparkle:edSignature="LN+XH7db1NEP/pAJpnq478BNdG3xe2afcap8BIB7+1KmVZdGlWAO64QYhGCEJ/w8x27+iWxwCNWy2Pcl8ecFAg=="/>
     </item>
   </channel>
 </rss>
