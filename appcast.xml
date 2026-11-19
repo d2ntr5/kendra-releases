@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.7.2</title>
-      <pubDate>Thu, 19 Nov 2026 03:47:33 GMT</pubDate>
-      <sparkle:version>77</sparkle:version>
-      <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+      <title>Kendra 0.7.3</title>
+      <pubDate>Thu, 19 Nov 2026 03:58:07 GMT</pubDate>
+      <sparkle:version>83</sparkle:version>
+      <sparkle:shortVersionString>0.7.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,12 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="77" data-v="0.7.2"><h3>v0.7.2<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<section data-sparkle-version="83" data-v="0.7.3"><h3>v0.7.3<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<ul>
+<li><b>설정 › AI 키 · Slack 토큰의 저장 · 연결 확인 상태</b>(시안 40장): 「키」·「토큰」 줄에 ● 저장됨 · 저장 시각 / ○ 없음, AI 키는 「지우기…」(묻고 지움). 「저장」 옆에 ✓ 저장했습니다(3초) 또는 ✕ 이유(빨강, 칸을 비우지 않음). 「상태」 줄에 확인 전 / 확인 중… / ✓ 연결됨 · 모델 N개(Slack은 워크스페이스 · 채널 n개) · 시각 / ✕ 실패: 이유 · 시각. 엔진마다 따로, 앱을 다시 열어도 남음. 키 값은 보이지 않음</li>
+<li>Slack 확인이 실패해도 토큰이 저장돼 있으면 「연결 전」이 아니라 「● 저장됨」 + 실패 이유로. 네트워크 오류는 「네트워크에 연결할 수 없습니다.」, Slack 오류는 「토큰이 맞지 않습니다 (invalid_auth)」처럼</li>
+</ul></section>
+<section data-sparkle-version="77" data-v="0.7.2"><h3>v0.7.2<small>2026-11-19</small></h3>
 <ul>
 <li>창 머리(제목 줄 · 탭 줄의 빈 곳)를 더블클릭하면 창이 지금 화면(메뉴 막대 · Dock 뺀 곳)을 채움. 전체 화면은 아님. 다시 더블클릭하면 원래 크기 · 자리로. 채운 채 껐다 켜도 되돌릴 수 있음. 단추 · 메뉴 · 탭 위 더블클릭은 그 동작만</li>
 </ul></section>
@@ -131,7 +136,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.7.2.zip" length="6204791" type="application/octet-stream" sparkle:edSignature="ml9mFFQrlF2Dn/w0MCnRXiHzUP7Eb2KhgMoijC11RCrd0HI0xi6CoxT+7hamUZK/qOc5ILk/PC+SjxCp9EBLAw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.7.3.zip" length="6288009" type="application/octet-stream" sparkle:edSignature="0c2s6cqJFRP7I1QCDdnPXg2959HhlmTWYGgNYgPgKODKbGMhOOd57M3vMHUsrXZaitxW0sxSNqHjhHf+0+m2CQ=="/>
     </item>
   </channel>
 </rss>
