@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.12.0</title>
-      <pubDate>Thu, 19 Nov 2026 05:50:25 GMT</pubDate>
-      <sparkle:version>154</sparkle:version>
-      <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+      <title>Kendra 0.13.0</title>
+      <pubDate>Thu, 19 Nov 2026 06:07:24 GMT</pubDate>
+      <sparkle:version>160</sparkle:version>
+      <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,11 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="154" data-v="0.12.0"><h3>v0.12.0<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<section data-sparkle-version="160" data-v="0.13.0"><h3>v0.13.0<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<ul>
+<li><b>업무 맵</b>(시안 45~48장): 탭 이름 「지도」 → 「업무 맵」. 모양을 업무용 좌우 마인드맵으로 — 가운데 「전체」, 고객사를 묶음 수 순으로 오른쪽 · 왼쪽 번갈아 둥근 사각 라벨(이름 · 단계 · 묶음 수 · 마지막 활동일, 7일 안 일정 점 · 「확인 n」), 처음엔 접혀 있고 누르면 아젠다 · 묶음(아젠다마다 4개 + 「+n개 더」)이 펼쳐짐. ⌥ 누르면 그쪽 모두, 오른쪽 아래 [모두 펼치기]. 가로 곡선, 그림자 없음, 다른 탭과 같은 색 · 글꼴. 상세보기도 같은 모양</li>
+</ul></section>
+<section data-sparkle-version="154" data-v="0.12.0"><h3>v0.12.0<small>2026-11-19</small></h3>
 <ul>
 <li><b>「담당자」 탭</b>(시안 52~55장, 고객사 다음): 메일 · 일정 · Chat에서 나와 관련된 사람을 뽑아 성명 · 이메일 · 소속 · 직무 · 담당 고객사 · 주고받은 수 · 메모 · 담당 기록을 보여 줌. 기본은 나와 두 번 이상 주고받은 사람, 「전체」 · 「더 보기」. 같은 사람(같은 주소 · 회사 별칭 도메인의 같은 아이디 · 같은 이름 + 같은 도메인)은 자동으로 합치고, 같은 이름 · 다른 회사는 합치기 추천</li>
 <li>성명 기준(가나다 · 초성 머리 · 오른쪽 상세)과 고객사 기준(지금 담당 위 · 예전 담당 회색 아래), 검색(⌘F, 성명 · 이메일 · 고객사 · 직무 · 소속, 초성 검색). 담당이 바뀌면(새 사람이 이어받음 · 직접 고침) 예전 기록은 회색으로 남음</li>
@@ -179,7 +183,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.12.0.zip" length="7951624" type="application/octet-stream" sparkle:edSignature="y7EqDnS4tf5AvbVBeRujhBBZAcCOj6b1Xi8cxGJeq/is1Sfbty1bklKZ/LHgZW4atgeni3gWfXndNAph6nxSCA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.13.0.zip" length="7991497" type="application/octet-stream" sparkle:edSignature="EdKz23b7JfFWXUIRFWfXAvacCFtN+hcskfaLs+lRF1ant965nabHiH0lpYKJehWBKBNncIMPA+Nx67aiJSYtBw=="/>
     </item>
   </channel>
 </rss>
