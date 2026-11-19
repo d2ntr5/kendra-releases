@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.15.1</title>
-      <pubDate>Thu, 19 Nov 2026 06:43:06 GMT</pubDate>
-      <sparkle:version>180</sparkle:version>
-      <sparkle:shortVersionString>0.15.1</sparkle:shortVersionString>
+      <title>Kendra 0.15.2</title>
+      <pubDate>Thu, 19 Nov 2026 09:59:39 GMT</pubDate>
+      <sparkle:version>186</sparkle:version>
+      <sparkle:shortVersionString>0.15.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,11 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="180" data-v="0.15.1"><h3>v0.15.1<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<section data-sparkle-version="186" data-v="0.15.2"><h3>v0.15.2<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<ul>
+<li>설정 › 업데이트: 새 버전이 있을 때 「마지막 확인」 줄 단추를 「업데이트…」 → 「업데이트」로(앱 표준 update-and-about.md 1.3). 없을 때는 그대로 「업데이트 확인…」</li>
+</ul></section>
+<section data-sparkle-version="180" data-v="0.15.1"><h3>v0.15.1<small>2026-11-19</small></h3>
 <ul>
 <li>담당자: 「나」를 같은 아이디의 회사 별칭 도메인 주소까지 넓힘 — 그 주소로 받은 메일 · 일정도 「나와 주고받음」으로 셈(맥미니 DB 사본에서 나와 두 번 이상 주고받은 사람 35 → 75명)</li>
 </ul></section>
@@ -197,7 +201,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.15.1.zip" length="8408596" type="application/octet-stream" sparkle:edSignature="Z8e7wfuRkSMm2f5DbYOJy9Od49tMiYA9l9vGhzXBRUK8RQcwwf7OhefoAoJR+Mm/lh+p2XqLkBovF71UdyzkBQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.15.2.zip" length="8408612" type="application/octet-stream" sparkle:edSignature="2Ikih5blJRsFKAYu7wQD4bOHEXdE+K8Q1+a8B5ySDukMzG3+wq7c9FZgI+ga/QspcTQJwS8Fu8XfdJ3C3odeCg=="/>
     </item>
   </channel>
 </rss>
