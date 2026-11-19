@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.16.0</title>
-      <pubDate>Thu, 19 Nov 2026 10:10:06 GMT</pubDate>
-      <sparkle:version>192</sparkle:version>
-      <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
+      <title>Kendra 0.17.0</title>
+      <pubDate>Thu, 19 Nov 2026 10:42:09 GMT</pubDate>
+      <sparkle:version>199</sparkle:version>
+      <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,12 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="192" data-v="0.16.0"><h3>v0.16.0<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<section data-sparkle-version="199" data-v="0.17.0"><h3>v0.17.0<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<ul>
+<li>담당자: 메일 서명에서 직무 · 부서 · 전화 읽기 — 담당자마다 나에게 보낸 가장 최근 메일 1통의 끝 20줄만(인용은 잘라 냄) 기기 내 모델로 읽어 채움, 값 옆 「서명 · MM-dd 메일」. 본문 · 20줄은 저장하지 않음, 더 새 메일이 오고 7일이 지나야 다시 읽음, 직함이 바뀌면 담당 기록을 바뀐 메일 날로 나눔. 우선순위 ✎ &gt; GWS &gt; 서명 &gt; 규칙, 직함 낱말이 역할 구분에 먼저. 전화는 내보내기에 넣지 않음</li>
+<li>설정 › AI: 「메일 서명에서 직무 · 부서 읽기」 켬(기본) / 끔 — 끄면 읽은 값을 지움. 읽는 동안 머리 단추 「서명 읽는 중 n / m」</li>
+</ul></section>
+<section data-sparkle-version="192" data-v="0.16.0"><h3>v0.16.0<small>2026-11-19</small></h3>
 <ul>
 <li>담당자 · 내 역할: 설정 › 연결에 「내 Chat 글 알아보기 허용…」(권한 <code>userinfo.email</code> 하나만 더 물음). 허용하면 다음 모으기 때 내 Google id를 한 번 받아 맥 안에만 두고, 담당자 「나와 주고받은 사람」에 내가 글을 쓴 15명 이하 Chat 방의 다른 사람을, 설정 › AI 「내 데이터로 추천」에 내 Chat 글 앞 80자를 더함. 허용 뒤 줄 「✓ 허용 · 내 글 n건」</li>
 <li>설정 › 연결: 「회사 디렉터리 (directory.readonly)」 줄을 더해 GWS 권한 상태를 보여 줌</li>
@@ -206,7 +211,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.16.0.zip" length="8434343" type="application/octet-stream" sparkle:edSignature="BkSpHm6WE7uhGaJKnbjP1C0kU4m/7m1NIbC5P9MrD/bJTiyFWfhOWhKPFReT5d//F8DciGHKk/hAvW8OFBzkCQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.17.0.zip" length="8542277" type="application/octet-stream" sparkle:edSignature="Qi0+sv279eWP3gTDUxg5jmcrQa5lD8GV4BMYXtK6EaZS2/NCy3ediUpbX6SO/ltcQjIzpfgSBy9ST8VLB2GsDg=="/>
     </item>
   </channel>
 </rss>
