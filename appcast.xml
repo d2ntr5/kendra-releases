@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.8.0</title>
-      <pubDate>Thu, 19 Nov 2026 04:45:57 GMT</pubDate>
-      <sparkle:version>109</sparkle:version>
-      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <title>Kendra 0.9.0</title>
+      <pubDate>Thu, 19 Nov 2026 05:11:35 GMT</pubDate>
+      <sparkle:version>123</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,15 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="109" data-v="0.8.0"><h3>v0.8.0<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<section data-sparkle-version="123" data-v="0.9.0"><h3>v0.9.0<span class="tag">설치할 버전</span><small>2026-11-19</small></h3>
+<ul>
+<li>고객사가 하나도 없을 때도 표에 붙여 넣은 항목이 「고객사 없음」으로 보임(전에는 안 보여 사라진 것처럼 보였음)</li>
+<li><b>지도 = 가지가 뻗는 마인드맵</b>(시안 42장): 전체 → 고객사 → 아젠다 → 묶음, 묶음을 누르면 레코드까지 펼침. 고객사마다 부채꼴로 나눠 선이 엇갈리지 않고, 가지 길이는 내용대로(같은 데이터면 같은 모양). 모든 고객사를 그림(24곳 제한 없앰), 한 노드 아래는 최근 10개 + 「+n」, 깊이 10단계까지</li>
+<li><b>지도 이동 · 확대</b>(43장): 스페이스를 누른 채 끌기 · 빈 곳 끌기 · 두 손가락 = 이동, 핀치 · ⌘휠 = 커서 자리 확대(25~400%), ⌘0 맞추기 · ⌘+ / ⌘−(지도 탭에서), 오른쪽 아래 [− 배율 +] [맞추기]. 고객사를 두 번 누르면 그 가지로 맞추기</li>
+<li><b>머리 단추 「✦ AI - Apple 동작 중…」</b>(시안 41장): 기기 내 AI가 정리하는 동안 「↻ 모으기」 대신 이 글자와 테두리 도는 빛(2pt), 누를 수 없음(멈추기는 상태 줄 「멈춤」). 동작 줄이기면 실선</li>
+<li>효과 테두리 2배: 받는 중 칩 숨쉬기 3pt, 정리 중 카드 도는 빛 4pt, 새 행 「새로」 막대 6pt, 반짝임 빛 번짐 20</li>
+</ul></section>
+<section data-sparkle-version="109" data-v="0.8.0"><h3>v0.8.0<small>2026-11-19</small></h3>
 <ul>
 <li><b>표에 붙여넣기</b>(시안 36장): 파이프라인 표 윗줄 「📋 붙여넣기」(⌘⇧V) · 표 위에 파일 끌어 놓기 — 붙인 글 · 그림 · 파일이 표의 항목(출처 태그 📋 붙여넣기, 날짜 = 붙인 날)이 되고, 기기 내 AI가 고객사 · 유형 · 제목을 목록 안에서 고름. 고객사를 못 고르면 추천 칸에 「고객사 없음」 + 「값 고치기」. 붙인 항목은 「모은 데이터 비우기」에도 남음</li>
 <li><b>붙여넣기 → 기기 내 AI</b>(시안 36장): 고객사 추가 · 수정 창 「📋 붙여넣기 → AI로 채우기」와 카드의 찾는 말 · 도메인 팝오버 「📋 붙여넣기」 — 명함 · 서명 · 계약서(글 · 그림 · PDF)에서 법인명 · 찾는 말 · 도메인 후보. 표의 행 메모 「📋」 — 붙인 글을 두세 줄로 줄여 메모에 더하고 원문은 「참고 자료」로 접어 둠(앱 안에만, 내보내기에 안 넣음). 기기 내 모델만 쓰고 맥 밖으로 보내지 않음</li>
@@ -150,7 +158,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.8.0.zip" length="6711295" type="application/octet-stream" sparkle:edSignature="GCOUqs+ZrbLwLusE9n/5ZeZhGB94a0cM/8LGZCbOcrHLsBVQY9lwR1tC20moU1gyY2lTtgyYbgG9sXDAe4GjCA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.9.0.zip" length="6892063" type="application/octet-stream" sparkle:edSignature="BXN5/nHt+Qk4+nkleXeLimv8m6xsUlZd6drFvNMswtfoeyD5fD6yI4fyY1EKZK/Z9Hqjdf8z6EyyIeqx0sMXDg=="/>
     </item>
   </channel>
 </rss>
