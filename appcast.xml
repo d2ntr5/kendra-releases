@@ -3,10 +3,10 @@
   <channel>
     <title>Kendra</title>
     <item>
-      <title>Kendra 0.19.7</title>
-      <pubDate>Mon, 23 Nov 2026 00:27:51 GMT</pubDate>
-      <sparkle:version>259</sparkle:version>
-      <sparkle:shortVersionString>0.19.7</sparkle:shortVersionString>
+      <title>Kendra 0.19.8</title>
+      <pubDate>Mon, 23 Nov 2026 01:18:26 GMT</pubDate>
+      <sparkle:version>265</sparkle:version>
+      <sparkle:shortVersionString>0.19.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,12 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="259" data-v="0.19.7"><h3>v0.19.7<span class="tag">설치할 버전</span><small>2026-11-23</small></h3>
+<section data-sparkle-version="265" data-v="0.19.8"><h3>v0.19.8<span class="tag">설치할 버전</span><small>2026-11-23</small></h3>
+<ul>
+<li>앱 로그인 · 잠금 화면의 6자리 코드 칸: 「키 보기」 등 다른 단추를 누른 뒤 칸을 눌러도 입력이 안 되던 것을 고침 — 6칸 어디를 눌러도 입력되고, 「키 보기」 뒤에는 칸으로 다시 포커스</li>
+<li>설정 › 로그: 「지우기…」 · 「로그 초기화…」 단추 글자를 빨강에서 기본 글자색으로 — 회색 테두리 단추 위 빨강은 다크에서 잘 안 보임(앱 표준 logs.md 5장). 확인 창 안의 지우기 단추는 빨강 그대로</li>
+</ul></section>
+<section data-sparkle-version="259" data-v="0.19.7"><h3>v0.19.7<small>2026-11-23</small></h3>
 <ul>
 <li>설정 › 로그 탭 새로(앱 표준 logs.md, 업데이트 · 정보 바로 앞): 앱 · 업데이트 · 설정 변경 · 모으기 · AI 정리 · 잠금 로그를 <code>~/Library/Logs/Kendra/</code>에 따로 저장(한도 20 · 5 · 5 · 20 · 20 · 5 MB, 파일 5개 돌려 쓰기, 잠금만 처음 꺼짐). 로그마다 켜기 · 끄기 · 크기 막대 · 「지우기…」, 「모두 켜기」 · 「모두 끄기」, 「로그 내보내기…」(zip 하나에 모든 로그 · 지난 파일 · info.txt) · 「Finder에서 보기」 · 「로그 초기화…」. 비밀번호 · 토큰 · 키 · 메일 · 일정 · 대화 내용 · AI에 보낸 글은 남기지 않음(모으기는 건수 · 오류만)</li>
 <li>로그 내보내기 zip에 맥 부가 파일(<code>._app.log</code> 등)이 들어가지 않게 함</li>
@@ -252,7 +257,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>연결 시험 전: Google · Slack 연결은 Kendra용 OAuth 클라이언트 · Chat API · Slack 앱 준비가 끝난 뒤 시험합니다. 이 버전에서는 Google 연결 단추가 비활성일 수 있습니다</li>
 <li>파이프라인 표 · 지도 · 캘린더 분석 화면과 가져오기 · 내보내기는 다음 버전</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.19.7.zip" length="9071563" type="application/octet-stream" sparkle:edSignature="EZ+kPjH+E/Ya0S8bqDMvTz5yPPiq0Mr0Bbourng/j/usSlahNlY/E2G592DaPQHfabin2hzKX9+zqgoO2MNJDg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/kendra-releases/main/releases/Kendra-0.19.8.zip" length="9075389" type="application/octet-stream" sparkle:edSignature="XcVZ4KxRG9cOOroz7FnUXgO66U0FgSUBBTAh1e16J4lSqd52PxqGVSYyPUQO4kXWFRvs0JFrtwK0rsFL6epUCg=="/>
     </item>
   </channel>
 </rss>
